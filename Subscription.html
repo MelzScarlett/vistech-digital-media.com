@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="subStyle.css">
+    <title>Gib Money</title>
+</head>
+<body>
+    <section>
+        <div class="container">
+            <div class="left">
+                <div class="content">
+                    <h1>Free</h1>
+                    <h2>Current Plan</h2>
+                    <p>
+                        <li>Upload Images to digital environment</li>
+                        <li>Limited Digital environments</li>
+                        <li>Up to 2 persons on collaborated environments</li>
+                        <li class="place-holder"></li>
+                        <li class="place-holder"></li>
+                        <li class="place-holder"></li>
+                    </p>
+                    <a href="main.html">Purchase Plan</a>
+                </div>
+            </div>
+            <div class="middle">
+                <div class="content">
+                    <h1>Plus</h1>
+                    <h2>$11.99/month</h2>
+                    <p>
+                        <li>Unilited Access to Environmental Assets</li>
+                        <li>Up to 4 persons on colloaborated environments</li>
+                        <li>Upload 3D models</li>
+                        <li>No ads</li>
+                    </p>
+                    <a id="btn" href="#">Purchase Plan</a>
+                </div>
+            </div>
+            <div class="right">
+                <div class="content">
+                    <h1>Pro</h1>
+                    <h2>$19.99/month</h2>
+                    <p>
+                        <li>Unilimted Accessto Environmental Assests</li>
+                        <li>Up to 10 persons on colaborated environments</li>
+                        <li>Access to Custom environment</li>
+                        <li>Upload 3D models</li>
+                        <li>No ads</li>
+                    </p>
+                    <a id="mybtn" href="#">Purchase Plan</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        function showAlert(){
+            alert('No access, you dont have the funds. Try our free plan!');
+        }
+
+        document.getElementById('mybtn').addEventListener('click', showAlert);
+
+        document.getElementById('btn').addEventListener('click', showAlert);
+    </script>
+</body>
+</html>
